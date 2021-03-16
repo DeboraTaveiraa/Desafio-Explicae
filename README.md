@@ -14,6 +14,6 @@
 
 ## Repositórios dos desafios
 
-[Desafios 1, 2, 3 e 4](https://deborataveiraa.github.io/Desafios-1-2-3-4)
+[Desafios 1, 2, 3 e 4](https://github.com/DeboraTaveiraa/Desafio-Explicae/tree/main/Desafios-1-2-3-4)
 
 [Desafio 5](https://deborataveiraa.github.io/desafio-5/desafio)
