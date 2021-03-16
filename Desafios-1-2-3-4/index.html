@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <title>Desafio Explicaê</title>
+</head>
+
+<body>
+    <div id="app">
+        <h2>Desafio 1</h2>
+        <button @click="gerarArray">Gerar array</button>
+        <ul v-for="dezena in array">
+            <li>{{ dezena }}</li>
+        </ul>
+        <hr>
+        <h2>Desafio 2</h2>
+        <div class="tables">
+            <table class="table-one">
+                <tr v-for="l in 6">
+                    <td v-for="c in 10">{{ criarTabela(l,c) }}</td>
+                </tr>
+            </table>
+            <table class="table-two">
+                <tr v-for="l in 6">
+                    <td v-for="c in 10">{{ criarTabela(l,c) }}</td>
+                </tr>
+            </table>
+            <table class="table-three">
+                <tr v-for="l in 6">
+                    <td v-for="c in 10">{{ criarTabela(l,c) }}</td>
+                </tr>
+            </table>
+            <button @click="sortearTableOne" id="bt-one">Apostar</button>
+            <button @click="sortearTableTwo">Apostar</button>
+            <button @click="sortearTableThree">Apostar</button>
+        </div>
+        <hr>
+        <h2>Desafio 3</h2>
+        <input type="file" id="fileText">
+        <textarea id="contentText" cols="30" rows="10"></textarea>
+
+        <hr>
+        <h2>Desafio 4</h2>
+        <form>
+            <label for="name">Selecione um arquivo de texto:</label>
+            <input type="file" id="fileForm">
+            <button id="btSubmit" type="button">Enviar</button>
+            <textarea id="contentForm" cols="30" rows="10"></textarea>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="app.js"></script>
+    <script src="desafios-3-4.js"></script>
+</body>
+
+</html>

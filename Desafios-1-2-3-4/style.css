@@ -1,0 +1,52 @@
+h2 {
+  background-color: #ff00ff;
+  color: #fff;
+}
+
+ul li {
+  margin-left: 20px;
+}
+button {
+  border: 1px solid #ff00ff;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+#btSubmit {
+  width: 100px;
+  margin: 10px 0;
+}
+.tables {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+table {
+  border: 1px solid #f2f2f2;
+}
+td {
+  background-color: #f2f2f2;
+  padding: 2px;
+  text-align: center;
+}
+
+.numero-sorteado {
+  background-color: #ff00ff;
+  font-weight: bold;
+}
+
+#contentText {
+  border: 1px solid #212121;
+  height: 200px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+#contentForm {
+  height: 200px;
+}
